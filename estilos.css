@@ -17,12 +17,33 @@ main{
     align-items: center;
     background-color: white;
     flex-direction: column;
-    width: 300px;
+    max-width: 350px;
+    width: 90%;
     border-radius: 10px;
+    padding-top: 10px;
+   
 }
 img{
-    width: 280px;
-    height: 280px;
+    width: 90%;
     border-radius: 10px;
-
+}
+.abajo{
+    text-align: center;
+    margin-top: 20px;
+}
+h1{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3rem;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+p{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    color: rgba(8, 8, 8, 0.541);
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
